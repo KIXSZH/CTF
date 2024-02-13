@@ -1,0 +1,52 @@
+function onMessage(e){
+	console.log(e);
+	const payload = JSON.parse(e.data);
+	if(payload.event === "uid-fetcher"){
+		var myuid = null;
+		try {
+      if(payload.args) {
+        var new_identifier = payload.args;
+        var old_identifier = localStorage.getItem('check-my-identifier');
+        if(old_identifier != new_identifier){
+          myuid = null;
+          localStorage.setItem('check-my-identifier', new_identifier);
+        } else {
+          myuid = localStorage.getItem('check-my-uid');
+        }
+      } else {
+        myuid = localStorage.getItem('check-my-uid');
+      }
+		}catch(err){
+			console.log("Privacy mode, get UID everytime");
+		}
+		if(myuid){
+			console.log("Preexisting UID: Returning from local storage");
+			window.parent.postMessage(
+				JSON.stringify({
+				  frameID: "",
+				  event: "uid-fetcher-res",
+				  args: myuid,
+				}),
+				e.origin
+			);
+		}else{
+			myuid = new DeviceUUID().get(payload.args?payload.args:null);
+			try {
+				localStorage.setItem('check-my-uid', myuid);
+			}catch(err){
+			}
+			console.log("creating UID: new one is being created");
+			window.parent.postMessage(
+				JSON.stringify({
+				  frameID: "",
+				  event: "uid-fetcher-res",
+				  args: myuid,
+				}),
+				e.origin
+			);
+		}
+	}
+}
+
+
+window.addEventListener("message", onMessage);

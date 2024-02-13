@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM-based XSS Example</title>
+</head>
+<body>
+
+<div id="output"></div>
+
+<script>
+  // Extract the value of the "message" parameter from the URL
+  var message = decodeURIComponent(window.location.hash.substring(1));
+
+  // Display the message on the page using innerHTML (vulnerable)
+  document.getElementById("output").innerHTML = message;
+</script>
+
+</body>
+</html>
