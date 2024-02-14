@@ -64,12 +64,12 @@ Database::make_conn();
                                   GENERAL QUESTIONS
                                 </h4>
                                 <h4 class="panel-title">
-                                    5 Questions 
+                                    10 Questions 
                                   </h4>
                               </a>
                             </div>
                             <div id="collapse1" class="panel-collapse collapse in">
-                              <div class="panel-body">Here Description
+                              <div class="panel-body">
                               <br><br>
                                 <div class="row justify-content-between">
 
@@ -100,7 +100,7 @@ Database::make_conn();
                               </a>
                             </div>
                             <div id="collapse2" class="panel-collapse collapse in">
-                              <div class="panel-body">Here Desription 
+                              <div class="panel-body">
                                 <br>
                                 <br>
                                 <div class="row justify-content-between">
@@ -131,7 +131,7 @@ Database::make_conn();
                               </a>
                             </div>
                             <div id="collapse3" class="panel-collapse collapse in">
-                              <div class="panel-body">Here Description
+                              <div class="panel-body">
                                 
                                 <br>
                                 
@@ -164,7 +164,7 @@ Database::make_conn();
                               </a>
                             </div>
                             <div id="collapse4" class="panel-collapse collapse in">
-                              <div class="panel-body">Here Description
+                              <div class="panel-body">
                                 <br>
                                 <br>
                                 <div class="row justify-content-between">
@@ -195,7 +195,7 @@ Database::make_conn();
                               </a>
                             </div>
                             <div id="collapse5" class="panel-collapse collapse in">
-                              <div class="panel-body">Here Description
+                              <div class="panel-body">
                                 <br>
                                 <br>
                                 <div class="row justify-content-between">
@@ -226,7 +226,7 @@ Database::make_conn();
                               </a>
                             </div>
                             <div id="collapse6" class="panel-collapse collapse in">
-                              <div class="panel-body">Here Description
+                              <div class="panel-body">
                                 <br>
                                 <br>
                                 <div class="row justify-content-between">
@@ -257,7 +257,7 @@ Database::make_conn();
                               </a>
                             </div>
                             <div id="collapse7" class="panel-collapse collapse in">
-                              <div class="panel-body">Here Description
+                              <div class="panel-body">
                                 <br>
                                 <br>
                                 <div class="row justify-content-between">
