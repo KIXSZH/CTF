@@ -18,7 +18,7 @@
         strtolower($field4) === 'japan' &&
         strtolower($field5) === 'china'
     ) {
-        echo '<p> bYtE_BuStErS{453fv.dg,sdf435345,sdf} </p>';
+        echo '<p> ThReAdS_BuStErS{453fv.dg,sdf435345,sdf} </p>';
     } else {
         echo '<p>Please enter the correct values in all five fields.</p>';
     }
