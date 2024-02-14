@@ -10,6 +10,7 @@ $q4 = '0x0C';
 $q5 = '0x0A';
 $q6 = '0x0G';
 $q7 = '0x0H';
+$q8 = '0x0I';
 $result1 = Database::Checker($_SESSION['team_id'],$q1);
 $result2 = Database::Checker($_SESSION['team_id'],$q2);
 $result3 = Database::Checker($_SESSION['team_id'],$q3);
@@ -17,6 +18,7 @@ $result4 = Database::Checker($_SESSION['team_id'],$q4);
 $result5 = Database::Checker($_SESSION['team_id'],$q5);
 $result6 = Database::Checker($_SESSION['team_id'],$q6);
 $result7 = Database::Checker($_SESSION['team_id'],$q7);
+$result8 = Database::Checker($_SESSION['team_id'],$q8);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -52,7 +54,7 @@ $result7 = Database::Checker($_SESSION['team_id'],$q7);
     </div><br>
     <h1 class="display-3" style="text-align: center"><b>GENERAL QUESTS</b><span class="vim-caret">͏͏&nbsp;</span></h1>
     <div class="lead mb-3 text-mono text-success"style="text-align: center">
-        Ready to dive into the Quantum World !
+        Ready to dive into the Quantum World  !
     </div>
     <div class="jumbotron bg-transparent mb-0 radius-0">
       <div class="container">
@@ -227,6 +229,65 @@ $result7 = Database::Checker($_SESSION['team_id'],$q7);
                           </div>
                     </div>
                   </div>
+
+
+                
+                  <div class="col-xl-4">
+                      <div id="chal3" class="panel panel-default mb-10 text-center">
+                          <div class="container">
+                            <div class="panel-heading">
+                              <a data-toggle="collapse8" data-parent="#accordion" href="#collapse2">
+                                <h4 class="panel-title">
+                                  0x0I
+                                </h4>
+                                <h4 class="panel-title">
+                                    50 points 
+                                </h4>
+                              </a>
+                            </div>
+                            <div id="collapse8" class="panel-collapse collapse in">
+                              <div class="panel-body">.py bug fix
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-primary">EASY</button>
+                                <br>
+                                <br>
+                                <?php if($result8){ ?>
+                                <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
+                                ?><?php } 
+                                else{?>
+                                <?php echo '<a class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">NOT_COMPLETED_YET</a>'
+                                ?><?php }?>
+                                <br>
+                                <br>
+                                <div class="row justify-content-between">
+                                  <div class="col-xl-12 align-self-center">
+                                      <a href="./challenges/0x0I.html" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
+                                      <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint2"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
+                                    </div>
+                                    <br>
+                                <br>
+                                <form action="test.php" method="post">
+                                  <div class="input-group mt-3">
+                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag" aria-describedby="basic-addon2" name = "flag">
+                                      <input type="hidden" name="qnum" value="0x0I">
+                                      <div class="input-group-append">
+                                        <button class="btn btn-outline-success" type="submit">GO!</button>
+                                      </div>
+                                    </div>  
+                                </form>
+                                  <div class="col-xl-12 align-self-center">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+
+
+
+
 
 
 
