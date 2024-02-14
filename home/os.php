@@ -52,7 +52,7 @@ $result7 = Database::Checker($_SESSION['team_id'],$q7);
     </div><br>
     <h1 class="display-3" style="text-align: center"><b>GENERAL QUESTS</b><span class="vim-caret">͏͏&nbsp;</span></h1>
     <div class="lead mb-3 text-mono text-success"style="text-align: center">
-        Ready to dive into the Quantum World !
+        Ready to dive into the Quantum World  !
     </div>
     <div class="jumbotron bg-transparent mb-0 radius-0">
       <div class="container">
