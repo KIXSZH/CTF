@@ -18,7 +18,7 @@
         
         )
      {
-        echo '<p> bYtE_BuStErS{453f,d,ge5,435345,sdf,565} </p>';
+        echo '<p> ThReAdS_BuStErS{453f,d,ge5,435345,sdf,565} </p>';
     } else {
         echo '<p>Please enter the correct values in all three  fields.</p>';
     }
