@@ -127,7 +127,7 @@ $result8 = Database::Checker($_SESSION['team_id'],$q8);
                               </a>
                             </div>
                             <div id="collapse2" class="panel-collapse collapse in">
-                              <div class="panel-body">QUANTUM VIDEO VAULT
+                              <div class="panel-body">HELP
                                 <br>
                                 <br>
                                 <button type="button" class="btn btn-primary">EASY</button>

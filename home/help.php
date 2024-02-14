@@ -109,7 +109,7 @@ $tname = Database::get_tname($_SESSION['team_id']);
                         <h2>3. Rules and Guidelines</h2>
                         <ul>
                             <li>Fair Play: The CTF event is meant to be a fair competition. Cheating, sharing answers, or exploiting vulnerabilities in the platform itself is strictly prohibited.</li>
-                            <li>Legal Compliance: Ensure that your participation adheres to all applicable laws and regulations. Unauthorized access to systems outside the scope of the event is strictly forbidden.</li>
+                            <li>Legal Compliance: Ensure that your participation adheres to all applicable laws and regulations. Unauthorized access to systems ThReAdS_BuStErS{tHE"H@e#L$P%is&!IN*hE@l_#P} outside the scope of the event is strictly forbidden.</li>
                             <li>Respect: Treat other participants, organizers, and systems with respect and courtesy. Any form of harassment will not be tolerated.</li>
                         </ul>
                     </div>
