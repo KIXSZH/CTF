@@ -10,52 +10,52 @@
     <link rel="stylesheet" href="../assets/css/bootstrap4-neon-glow.min.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/particles.css">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
     <style>
-        body {
+        body{
             background-color: #111;
             color: #24f804;
             font-family: 'Hack', monospace;
         }
 
-        .navbar-dark {
+        .navbar-dark{
             background-color: #000;
         }
 
-        .navbar-nav .nav-link {
+        .navbar-nav .nav-link{
             color: #24f804;
         }
 
-        .navbar-nav .nav-link:hover {
+        .navbar-nav .nav-link:hover{
             color: #00FF00;
         }
 
-        .jumbotron {
+        .jumbotron{
             background-color: transparent;
         }
 
-        .custom-text {
+        .custom-text{
             font-size: 1.25rem;
             margin-bottom: 1rem;
             font-family: 'Mono', monospace;
         }
 
-        .btn-danger {
+        .btn-danger{
             background-color: #ff0000;
             border: none;
         }
 
-        .btn-danger:hover {
+        .btn-danger:hover{
             background-color: #ff4545;
         }
 
-        .text-mono {
+        .text-mono{
             font-family: 'Mono', monospace;
         }
 
-        .vim-caret {
+        .vim-caret{
             color: #24f804;
         }
     </style>
@@ -79,38 +79,29 @@
 </div>
 
 <div class="jumbotron bg-transparent mb-0 radius-0">
-    <div class="container" style="align-items: center;>
+    <div class="container" style="align-items: center;">
         <div class="row">
             <div class="col-xl-6">
                 <h1 class="display-4">0x1F -> Find the Country <span class="vim-caret">͏͏&nbsp;</span><br><br></h1>
-                <div class="custom-text" ">
+                <div class="custom-text">
                     <p>
-                      
                         <h1> Find the country   </h1>
-                        <form action="main.php" method="post">
+                        <form action="main.php" method="post" type="submit">
                             <label for="field1">103.100.106.0:</label>
                             <input type="text" name="field1" id="field1" required><br><br>
-                            
                             <label for="field2">101.63.255.255 :</label>
                             <input type="text" name="field2" id="field2" required><br><br>
-                            
                             <label for="field3">103.231.136.0 :</label>
                             <input type="text" name="field3" id="field3" required><br><br>
-                            
                             <label for="field4">1.21.255.255 :</label>
                             <input type="text" name="field4" id="field4" required><br><br>
-                            
                             <label for="field5">1.0.32.0 :    </label>
                             <input type="text" name="field5" id="field5" required><br><br>
-                            
-                            <button type="submit">submit </button>
+                            <label for="flag">Access linux:</label>
+                            <button id="flag" name="flag" class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left" value="submit">submit</button>
                         </form>  <br><br>
                     </p>
                 </div>
-
-                <!-- <div class="text-mono" style="display: flex;">
-                    <button id="flag" class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">Access linux</button>
-                </div> -->
             </div>
         </div>
 
@@ -133,13 +124,13 @@
 
 <script>
     document.getElementById('flag').addEventListener('click', function() {
-        var link = document.createElement('a');
+        var link = document.createElement('a')
         link.href = '../challenges/ssh6.html'; // Provide the actual path
         //link.download = '0x0B Key.txt'; // Specify the desired file name
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    });
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
+    })
 </script>
 
 </body>
