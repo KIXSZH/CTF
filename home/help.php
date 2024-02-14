@@ -49,6 +49,7 @@ $tname = Database::get_tname($_SESSION['team_id']);
             animation-name: pulse;
             animation-iteration-count: infinite;
         }
+        
     </style>
 </head>
 <body>
@@ -61,9 +62,9 @@ $tname = Database::get_tname($_SESSION['team_id']);
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a href="../index.php" class="pl-md-0 p-3 text-light">Home</a>
-                        <a href="..\Website\completed.php" class="p-3 text-decoration-none text-light active">Dashboard</a>
-                        <a href="..\Website\categories.php" class="p-3 text-decoration-none text-light active">Categories</a>
+                        <a href="./index.php" class="pl-md-0 p-3 text-light">Home</a>
+                        <a href=".\Website\completed.php" class="p-3 text-decoration-none text-light active">Dashboard</a>
+                        <a href=".\Website\categories.php" class="p-3 text-decoration-none text-light active">Categories</a>
                         <a href="../help.php" class="p-3 text-decoration-none text-light active">Help</a>
                     </div>
                 </div>
@@ -155,6 +156,13 @@ $tname = Database::get_tname($_SESSION['team_id']);
 
                     <p>We hope you have a fantastic time participating in the CTF event! Good luck, and may the best hacker win!</p>
                 </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row justify-content-center" style="text-align: center">
+            </div>
+            <div style="text-align: center">
+                &copy; Byte Busters Club 2024
             </div>
         </div>
     </section>
