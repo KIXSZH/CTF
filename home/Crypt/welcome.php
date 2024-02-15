@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Welcome to Instagram</h1>
-    <p>You have successfully logged in and yourflag  bYtE_BuStErS{%mdsf,45,45,OIHJ}</p>
+    <p>You have successfully logged in and yourflag  ThReAdS_BuStErS{%mdsf,45,45,OIHJ}</p>
     <!-- Add your content here -->
 </body>
 </html>
