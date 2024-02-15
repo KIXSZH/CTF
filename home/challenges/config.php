@@ -5,7 +5,7 @@ server with default setting (user 'root' with no password) */
 define('DB_SERVER', '127.0.0.1:4400');
 define('DB_USERNAME', 'kali');
 define('DB_PASSWORD', 'kali');
-define('DB_NAME', 'test');
+define('DB_NAME', 'test1');
  
 /* Attempt to connect to MySQL1 database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
