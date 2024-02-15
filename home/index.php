@@ -82,7 +82,7 @@ $tname =Database::get_tname($_SESSION['team_id']);
       <div class="container">
           <div class="row">
             <div class="col-xl-6">
-              <h1 class="display-3">TEAM_NAME:<span class="vim-caret">͏͏&nbsp;</span></h1>
+              <h1 class="display-3"><em>TEAM_NAME:</em><span class="vim-caret">͏͏&nbsp;</span></h1>
               <div class="lead mb-3 text-mono text-success" style="font-size: 5em;"> <br><?php print($tname) ?>
               </div>      
             <div class="text-darkgrey text-mono my-2">Hey Team <?php print($tname)   ?> together, We never let anyone else take the top spot!</div>
@@ -94,7 +94,7 @@ $tname =Database::get_tname($_SESSION['team_id']);
             
             
           <div class="col-xl-6" >
-            <h1 class="display-3" style="margin-left: 100px;" >SCORES!:<span class="vim-caret" >͏͏&nbsp;</span></h1>
+            <h1 class="display-3" style="margin-left: 100px;" ><em>SCORES!:</em><span class="vim-caret" >͏͏&nbsp;</span></h1>
             <div class="lead mb-3 text-mono text-success" style="font-size: 8em; margin-top: 100px;margin-left: 100px;"> <?php print($score)?>
             </div>
               
@@ -105,11 +105,17 @@ $tname =Database::get_tname($_SESSION['team_id']);
           </div>
           <div class="container py-5">
           <br><br><br>
-          <div class="col-xl-6">
-              <h1 class="display-3">TIME Remaining:<span class="vim-caret">͏͏&nbsp;</span></h1><br><br>
-              <div class="lead mb-3 text-mono text-success"  class="countdown" id="demo" style="font-size: 5em;"> <br><br> 
-              </div>
-          </div>
+                    <div class="container py-5">
+    <div class="col-xl-6">
+      <h1 class="display-3"><em>TIME:</em><span class="vim-caret">͏͏&nbsp;</span></h1><br><br>
+      <div class="lead mb-3 text-mono text-success current-time" id="current-time" style="font-size: 7em;"></div>
+    </div>
+  </div>
+
+
+
+
+
       </div>
     </div>
 
@@ -137,6 +143,35 @@ setInterval(sendAndReceiveData, 1000);
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script>
+
+function updateCurrentTime() {
+      // Get the current time
+      var now = new Date();
+
+      // Get hours and minutes
+      var hours = now.getHours();
+      var minutes = now.getMinutes();
+
+      // Convert hours to 12-hour format
+      var am_pm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12;
+      hours = hours ? hours : 12; // Handle midnight (0 hours)
+
+      // Pad single digit minutes with leading zero
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+
+      // Display the current time in the current-time element
+      document.getElementById("current-time").innerHTML = hours + ':' + minutes + ' ' + am_pm;
+
+      // Update the current time every second
+      setTimeout(updateCurrentTime, 1000);
+    }
+
+    // Call the function to start updating current time
+    updateCurrentTime();
+  </script>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -145,6 +180,7 @@ setInterval(sendAndReceiveData, 1000);
     
     <script src="assets/js/particles.js"></script>
     <script src="assets/js/app.js"></script>
+    
    
   </body>
 </html>

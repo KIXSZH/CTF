@@ -133,14 +133,14 @@ $result3 = Database::Checker($_SESSION['team_id'],$q3);
                                   0x1D
                                 </h4>
                                 <h4 class="panel-title">
-                                    100 points 
+                                    200 points 
                                 </h4>
                               </a>
                             </div>
                             <div id="collapse8" class="panel-collapse collapse in">
                               <div class="panel-body">Pixelsss
                               <br><br>
-                                <button type="button" class="btn btn-warning">MEDIUM</button>
+                                <button type="button" class="btn btn-danger">HARD</button>
                                 <br><br>
                                 <?php if($result2){ ?>
                                 
