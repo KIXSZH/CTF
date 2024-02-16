@@ -2,7 +2,7 @@
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 
-define('DB_SERVER', '127.0.0.1:4400');
+define('DB_SERVER', '127.0.0.1');
 define('DB_USERNAME', 'kali');
 define('DB_PASSWORD', 'kali');
 define('DB_NAME', 'test1');
