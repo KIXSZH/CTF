@@ -267,7 +267,7 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                             <div class="panel-heading">
                               <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
                                 <h4 class="panel-title">
-                                  0x1E 
+                                  0x0L
                                 </h4>
                                 <h4 class="panel-title">
                                     100 points 
@@ -277,7 +277,7 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                              
                             </div>
                             <div id="collapse4" class="panel-collapse collapse in">
-                              <div class="panel-body">--Audio---
+                              <div class="panel-body">--DIG IT---
                               <br><br>
                                 <button type="button" class="btn btn-warning">MEDIUM</button>
                                 <br><br>
@@ -293,7 +293,7 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                                 <div class="row justify-content-between">
 
                                   <div class="col-xl-12 align-self-center">
-                                      <a href="./challenges/0x1E.html" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
+                                      <a href="./challenges/0x0L.html" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
                                       <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint3"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
                                   </div>
                                   <br>
