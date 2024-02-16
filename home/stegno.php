@@ -326,7 +326,7 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                             <div class="panel-heading">
                               <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
                                 <h4 class="panel-title">
-                                  0x1E 
+                                  0x0M
                                 </h4>
                                 <h4 class="panel-title">
                                     100 points 
@@ -336,9 +336,9 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                              
                             </div>
                             <div id="collapse5" class="panel-collapse collapse in">
-                              <div class="panel-body">--Audio---
+                              <div class="panel-body">--Attack---
                               <br><br>
-                                <button type="button" class="btn btn-warning">MEDIUM</button>
+                                <button type="button" class="btn btn-primary">EASY</button>
                                 <br><br>
                                 <?php if($result5){ ?>
                                 
@@ -352,7 +352,7 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                                 <div class="row justify-content-between">
 
                                   <div class="col-xl-12 align-self-center">
-                                      <a href="./challenges/0x1E.html" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
+                                      <a href="./challenges/0x0M.html" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
                                       <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint3"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
                                   </div>
                                   <br>
@@ -360,7 +360,7 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                                 <form action="test.php" method="post">
                                   <div class="input-group mt-3">
                                       <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag" aria-describedby="basic-addon2" name = "flag">
-                                      <input type="hidden" name="qnum" value="0x1E">
+                                      <input type="hidden" name="qnum" value="0x0M">
                                       <div class="input-group-append">
                                         <button class="btn btn-outline-success" type="submit">GO!</button>
                                       </div>

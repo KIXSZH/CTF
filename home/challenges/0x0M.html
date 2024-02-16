@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>ByteBusters-CTF-0x1E</title>
+    <title>ByteBusters-CTF-0x0M</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/bootstrap4-neon-glow.min.css">
@@ -82,16 +82,15 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-6">
-                <h1 class="display-4">0x1E->  FIND THE FLAW ??<span class="vim-caret">͏͏&nbsp;</span><br><br></h1>
+                <h1 class="display-4">0x0M->Attack !!<span class="vim-caret">͏͏&nbsp;</span><br><br></h1>
                 <div class="custom-text">
                     <p style="color: #24f804;">
-                      ----- THIS IS A SECREt Audio messege is passing here  Find the hidden messege ---<br><br>
+                      Flag format : ThReAdS_BuStErS{Malwarename} firstletter shuld be uppercase rest will be lowercase.<br>
+                      Your friend has fallen victim to a malware attack and has been instructed to pay some bitcoins to 1Mz7153HMuxXTuR2R1t78mGSdzaAtNbBWX. 
+                      He's confused and seeks your guidance to identify the malware responsible for the attack. Can you help him identify the malware?<br><br>
                     </p>
                 </div>
 
-                <div class="text-mono" style="display: flex;">
-                    <button id="flag" class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">GET THIS Audio File </button>
-                </div>
             </div>
         </div>
 
@@ -112,16 +111,6 @@
 <script src="../assets/js/particles.js"></script>
 <script src="../assets/js/app.js"></script>
 
-<script>
-    document.getElementById('flag').addEventListener('click', function() {
-        var link = document.createElement('a');
-        link.href = '../Crypt/secret.wav'; // Provide the actual path
-        link.download = 'Audio.wav'; // Specify the desired file name
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    });
-</script>
 
 </body>
 </html>
