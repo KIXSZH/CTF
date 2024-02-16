@@ -210,7 +210,7 @@ $result3 = Database::Checker($_SESSION['team_id'],$q3);
                               <br><br>
                                 <button type="button" class="btn btn-warning">MEDIUM</button>
                                 <br><br>
-                                <?php if($result1){ ?>
+                                <?php if($result3){ ?>
                                 
                                 <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
                                 ?><?php } 
@@ -229,14 +229,14 @@ $result3 = Database::Checker($_SESSION['team_id'],$q3);
                                 <br>
                                 <form action="test.php" method="post">
                                   <div class="input-group mt-3">
-                                  
-                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"aria-describedby="basic-addon2" name="flag">
-                                      <input type="hidden" name="qnum" value="0x05">
+                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag" aria-describedby="basic-addon2" name = "flag">
+                                      <input type="hidden" name="qnum" value="0x1E">
                                       <div class="input-group-append">
-                                        <button class="btn btn-outline-success" type="button">GO!</button>
-                                       
-                                      </div> 
-                                    </div>  </form>
+                                        <button class="btn btn-outline-success" type="submit">GO!</button>
+                                      </div>
+
+                                    </div>  
+                                </form>
                                   <div class="col-xl-12 align-self-center">
                                     
     
