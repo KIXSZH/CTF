@@ -108,7 +108,7 @@ $tname =Database::get_tname($_SESSION['team_id']);
                     <div class="container py-5">
     <div class="col-xl-6">
       <h1 class="display-3"><em>TIME:</em><span class="vim-caret">͏͏&nbsp;</span></h1><br><br>
-      <div class="lead mb-3 text-mono text-success current-time" id="current-time" style="font-size: 7em;"></div>
+      <div class="lead mb-3 text-mono text-success current-time" id="current-time" style="font-size: 6em;"></div>
     </div>
   </div>
 

@@ -7,9 +7,16 @@ Database::make_conn();
 $q1= '0x02';
 $q2 = '0x1D';
 $q3 = '0x1E';
+$q4 = '0x0L';
+$q5 = '0x0M';
+$q6 = '0x0N';
+
 $result1 = Database::Checker($_SESSION['team_id'],$q1);
 $result2 = Database::Checker($_SESSION['team_id'],$q2);
 $result3 = Database::Checker($_SESSION['team_id'],$q3);
+$result4 = Database::Checker($_SESSION['team_id'],$q4);
+$result5 = Database::Checker($_SESSION['team_id'],$q5);
+$result6 = Database::Checker($_SESSION['team_id'],$q6);
 
 
 ?>
@@ -274,7 +281,7 @@ $result3 = Database::Checker($_SESSION['team_id'],$q3);
                               <br><br>
                                 <button type="button" class="btn btn-warning">MEDIUM</button>
                                 <br><br>
-                                <?php if($result3){ ?>
+                                <?php if($result4){ ?>
                                 
                                 <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
                                 ?><?php } 
@@ -333,7 +340,7 @@ $result3 = Database::Checker($_SESSION['team_id'],$q3);
                               <br><br>
                                 <button type="button" class="btn btn-warning">MEDIUM</button>
                                 <br><br>
-                                <?php if($result3){ ?>
+                                <?php if($result5){ ?>
                                 
                                 <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
                                 ?><?php } 
@@ -392,7 +399,7 @@ $result3 = Database::Checker($_SESSION['team_id'],$q3);
                               <br><br>
                                 <button type="button" class="btn btn-warning">MEDIUM</button>
                                 <br><br>
-                                <?php if($result3){ ?>
+                                <?php if($result6){ ?>
                                 
                                 <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
                                 ?><?php } 
@@ -430,246 +437,6 @@ $result3 = Database::Checker($_SESSION['team_id'],$q3);
                     </div>
                     
                   </div>
-
-                  <div class="col-xl-4">
-                      <div id="chal2" class="panel panel-default mb-10 text-center">
-                          <div class="container">
-                            <div class="panel-heading">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
-                                <h4 class="panel-title">
-                                  0x1E 
-                                </h4>
-                                <h4 class="panel-title">
-                                    100 points 
-                                  </h4>
-                                
-                              </a>
-                             
-                            </div>
-                            <div id="collapse7" class="panel-collapse collapse in">
-                              <div class="panel-body">--Audio---
-                              <br><br>
-                                <button type="button" class="btn btn-warning">MEDIUM</button>
-                                <br><br>
-                                <?php if($result3){ ?>
-                                
-                                <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
-                                ?><?php } 
-                                else{?>
-                                <?php echo '<a class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">NOT_COMPLETED_YET</a>'
-                                ?><?php }?>
-                                <br>
-                                <br>
-                                <div class="row justify-content-between">
-
-                                  <div class="col-xl-12 align-self-center">
-                                      <a href="./challenges/0x1E.html" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
-                                      <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint3"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
-                                  </div>
-                                  <br>
-                                <br>
-                                <form action="test.php" method="post">
-                                  <div class="input-group mt-3">
-                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag" aria-describedby="basic-addon2" name = "flag">
-                                      <input type="hidden" name="qnum" value="0x1E">
-                                      <div class="input-group-append">
-                                        <button class="btn btn-outline-success" type="submit">GO!</button>
-                                      </div>
-
-                                    </div>  
-                                </form>
-                                  <div class="col-xl-12 align-self-center">
-                                    
-    
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    
-                  </div>
-
-                  <div class="col-xl-4">
-                      <div id="chal2" class="panel panel-default mb-10 text-center">
-                          <div class="container">
-                            <div class="panel-heading">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
-                                <h4 class="panel-title">
-                                  0x1E 
-                                </h4>
-                                <h4 class="panel-title">
-                                    100 points 
-                                  </h4>
-                                
-                              </a>
-                             
-                            </div>
-                            <div id="collapse8" class="panel-collapse collapse in">
-                              <div class="panel-body">--Audio---
-                              <br><br>
-                                <button type="button" class="btn btn-warning">MEDIUM</button>
-                                <br><br>
-                                <?php if($result3){ ?>
-                                
-                                <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
-                                ?><?php } 
-                                else{?>
-                                <?php echo '<a class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">NOT_COMPLETED_YET</a>'
-                                ?><?php }?>
-                                <br>
-                                <br>
-                                <div class="row justify-content-between">
-
-                                  <div class="col-xl-12 align-self-center">
-                                      <a href="./challenges/0x1E.html" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
-                                      <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint3"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
-                                  </div>
-                                  <br>
-                                <br>
-                                <form action="test.php" method="post">
-                                  <div class="input-group mt-3">
-                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag" aria-describedby="basic-addon2" name = "flag">
-                                      <input type="hidden" name="qnum" value="0x1E">
-                                      <div class="input-group-append">
-                                        <button class="btn btn-outline-success" type="submit">GO!</button>
-                                      </div>
-
-                                    </div>  
-                                </form>
-                                  <div class="col-xl-12 align-self-center">
-                                    
-    
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    
-                  </div>
-
-                  <div class="col-xl-4">
-                      <div id="chal2" class="panel panel-default mb-10 text-center">
-                          <div class="container">
-                            <div class="panel-heading">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
-                                <h4 class="panel-title">
-                                  0x1E 
-                                </h4>
-                                <h4 class="panel-title">
-                                    100 points 
-                                  </h4>
-                                
-                              </a>
-                             
-                            </div>
-                            <div id="collapse9" class="panel-collapse collapse in">
-                              <div class="panel-body">--Audio---
-                              <br><br>
-                                <button type="button" class="btn btn-warning">MEDIUM</button>
-                                <br><br>
-                                <?php if($result3){ ?>
-                                
-                                <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
-                                ?><?php } 
-                                else{?>
-                                <?php echo '<a class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">NOT_COMPLETED_YET</a>'
-                                ?><?php }?>
-                                <br>
-                                <br>
-                                <div class="row justify-content-between">
-
-                                  <div class="col-xl-12 align-self-center">
-                                      <a href="./challenges/0x1E.html" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
-                                      <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint3"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
-                                  </div>
-                                  <br>
-                                <br>
-                                <form action="test.php" method="post">
-                                  <div class="input-group mt-3">
-                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag" aria-describedby="basic-addon2" name = "flag">
-                                      <input type="hidden" name="qnum" value="0x1E">
-                                      <div class="input-group-append">
-                                        <button class="btn btn-outline-success" type="submit">GO!</button>
-                                      </div>
-
-                                    </div>  
-                                </form>
-                                  <div class="col-xl-12 align-self-center">
-                                    
-    
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    
-                  </div>
-
-
-                  <div class="col-xl-4">
-                      <div id="chal2" class="panel panel-default mb-10 text-center">
-                          <div class="container">
-                            <div class="panel-heading">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
-                                <h4 class="panel-title">
-                                  0x1E 
-                                </h4>
-                                <h4 class="panel-title">
-                                    100 points 
-                                  </h4>
-                                
-                              </a>
-                             
-                            </div>
-                            <div id="collapse10" class="panel-collapse collapse in">
-                              <div class="panel-body">--Audio---
-                              <br><br>
-                                <button type="button" class="btn btn-warning">MEDIUM</button>
-                                <br><br>
-                                <?php if($result3){ ?>
-                                
-                                <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
-                                ?><?php } 
-                                else{?>
-                                <?php echo '<a class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">NOT_COMPLETED_YET</a>'
-                                ?><?php }?>
-                                <br>
-                                <br>
-                                <div class="row justify-content-between">
-
-                                  <div class="col-xl-12 align-self-center">
-                                      <a href="./challenges/0x1E.html" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
-                                      <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint3"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
-                                  </div>
-                                  <br>
-                                <br>
-                                <form action="test.php" method="post">
-                                  <div class="input-group mt-3">
-                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag" aria-describedby="basic-addon2" name = "flag">
-                                      <input type="hidden" name="qnum" value="0x1E">
-                                      <div class="input-group-append">
-                                        <button class="btn btn-outline-success" type="submit">GO!</button>
-                                      </div>
-
-                                    </div>  
-                                </form>
-                                  <div class="col-xl-12 align-self-center">
-                                    
-    
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    
-                  </div>
-
-
-
 
 
 
