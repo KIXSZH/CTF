@@ -159,7 +159,7 @@ Database::make_conn();
                                   Steganography
                                 </h4>
                                 <h4 class="panel-title">
-                                  3 Challenges 
+                                  5 Challenges 
                                 </h4>
                               </a>
                             </div>
@@ -190,7 +190,7 @@ Database::make_conn();
                                    Networks
                                 </h4>
                                 <h4 class="panel-title">
-                                  - Challenges 
+                                  2 Challenges 
                                 </h4>
                               </a>
                             </div>
@@ -252,7 +252,7 @@ Database::make_conn();
                                  Python
                                 </h4>
                                 <h4 class="panel-title">
-                                  7 Challenges 
+                                  7 Challenges
                                 </h4>
                               </a>
                             </div>
