@@ -75,7 +75,7 @@ $result10 = Database::Checker($_SESSION['team_id'],$q10);
                                   0x04 
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                   </h4>
                               </a>
                             </div>
@@ -126,7 +126,7 @@ $result10 = Database::Checker($_SESSION['team_id'],$q10);
                                   0x05
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                 </h4>
                               </a>
                             </div>
@@ -190,7 +190,7 @@ $result10 = Database::Checker($_SESSION['team_id'],$q10);
                                   0x0G
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                 </h4>
                               </a>
                             </div>
@@ -246,7 +246,7 @@ $result10 = Database::Checker($_SESSION['team_id'],$q10);
                                   0x0K
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                 </h4>
                               </a>
                             </div>
@@ -302,7 +302,7 @@ $result10 = Database::Checker($_SESSION['team_id'],$q10);
                                   0x0I
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                 </h4>
                               </a>
                             </div>
@@ -356,7 +356,7 @@ $result10 = Database::Checker($_SESSION['team_id'],$q10);
                                   0x0J
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                 </h4>
                               </a>
                             </div>
@@ -413,7 +413,7 @@ $result10 = Database::Checker($_SESSION['team_id'],$q10);
                                   0x0H
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                 </h4>
                               </a>
                             </div>
@@ -469,7 +469,7 @@ $result10 = Database::Checker($_SESSION['team_id'],$q10);
                                   0x0B
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                 </h4>
                               </a>
                             </div>
@@ -525,7 +525,7 @@ $result10 = Database::Checker($_SESSION['team_id'],$q10);
                                   0x0A
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                 </h4>
                               </a>
                             </div>
@@ -585,7 +585,7 @@ $result10 = Database::Checker($_SESSION['team_id'],$q10);
                                   0xOC
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                 </h4>
                               </a>
                             </div>

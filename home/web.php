@@ -87,7 +87,7 @@ $q10 = '0x09';
                                   0x00 
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    25 points 
                                   </h4>
                                 
                               </a>

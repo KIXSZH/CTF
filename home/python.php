@@ -10,12 +10,14 @@ $q3 = '0x19';
 $q4 = '0x1A';
 $q5 = '0x1B';
 $q6 = '0x1C';
+$q7='0x1G';
 $result1 = Database::Checker($_SESSION['team_id'],$q1);
 $result2 = Database::Checker($_SESSION['team_id'],$q2);
 $result3 = Database::Checker($_SESSION['team_id'],$q3);
 $result4 = Database::Checker($_SESSION['team_id'],$q4);
 $result5 = Database::Checker($_SESSION['team_id'],$q5);
 $result6 = Database::Checker($_SESSION['team_id'],$q6);
+$result7 = Database::Checker($_SESSION['team_id'],$q7);
 
 
 ?>
@@ -88,7 +90,7 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                              
                             </div>
                             <div id="collapse1" class="panel-collapse collapse in">
-                              <div class="panel-body">ARE U COMMENTER
+                              <div class="panel-body"> Crack the Arcane Calculator
                                 <br><br>
                                 <button type="button" class="btn btn-primary">EASY</button>
                                 <br><br>
@@ -266,12 +268,12 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                                   0x1A
                                 </h4>
                                 <h4 class="panel-title">
-                                    100 points 
+                                    50 points 
                                 </h4>
                               </a>
                             </div>
                             <div id="collapse4" class="panel-collapse collapse in">
-                              <div class="panel-body"> ***  Magical--Game *** 
+                              <div class="panel-body">Break Me
                               <br><br>
                                 <button type="button" class="btn btn-primary">EASY</button>
                                 <br><br>
@@ -404,7 +406,9 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                              
                             </div>
                             <div id="collapse9" class="panel-collapse collapse in">
-                              <div class="panel-body">Infinite Rooms
+                              <div class="panel-body">Maze Explorer
+
+
                               <br><br>
                                 <button type="button" class="btn btn-primary">EASY</button>
                                 <br><br>
@@ -430,6 +434,66 @@ $result6 = Database::Checker($_SESSION['team_id'],$q6);
                                   
                                       <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"aria-describedby="basic-addon2" name="flag">
                                       <input type="hidden" name="qnum" value="0x1C">
+                                      <div class="input-group-append">
+                                        <button class="btn btn-outline-success" type="button">GO!</button>
+                                       
+                                      </div> 
+                                    </div>  </form>
+                                  <div class="col-xl-12 align-self-center">
+                                    
+    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-xl-4">
+                      <div id="chal2" class="panel panel-default mb-10 text-center">
+                          <div class="container">
+                            <div class="panel-heading">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+                                <h4 class="panel-title">
+                                  0x1C 
+                                </h4>
+                                <h4 class="panel-title">
+                                    50 points 
+                                  </h4>
+                                
+                              </a>
+                             
+                            </div>
+                            <div id="collapse7" class="panel-collapse collapse in">
+                              <div class="panel-body">Decrypt the flag
+
+
+                              <br><br>
+                                <button type="button" class="btn btn-primary">EASY</button>
+                                <br><br>
+                                <?php if($result7){ ?>
+                                
+                                <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
+                                ?><?php } 
+                                else{?>
+                                <?php echo '<a class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">NOT_COMPLETED_YET</a>'
+                                ?><?php }?>
+                                <br>
+                                <br>
+                                <div class="row justify-content-between">
+
+                                  <div class="col-xl-12 align-self-center">
+                                      <a href="./Challenges/0x1G.html" class="btn btn-shadow text-mono btn-outline-success">Go THERE</a>
+                                      <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint3"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
+                                  </div>
+                                  <br>
+                                <br>
+                                <form action="test.php" method="post">
+                                  <div class="input-group mt-3">
+                                  
+                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"aria-describedby="basic-addon2" name="flag">
+                                      <input type="hidden" name="qnum" value="0x1G">
                                       <div class="input-group-append">
                                         <button class="btn btn-outline-success" type="button">GO!</button>
                                        

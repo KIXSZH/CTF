@@ -252,7 +252,7 @@ Database::make_conn();
                                  Python
                                 </h4>
                                 <h4 class="panel-title">
-                                  6 Challenges 
+                                  7 Challenges 
                                 </h4>
                               </a>
                             </div>
