@@ -151,7 +151,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="row justify-content-center" style="text-align: center">
                 </div>
                 <div style="text-align: center">
-                    &copy; Byte Busters Club 2023
+                    &copy; Byte Busters Club 2024
                 </div>
             </div>
         </div>
