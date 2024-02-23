@@ -80,7 +80,20 @@ $tname = Database::get_tname($_SESSION['team_id']);
                     <a style="font-size: xx-large;color:gold" class="animated pulse">Byte Busters CTF Event - Help</a>
                 </div>
                 <!-- Your content goes here -->
+                
+
                 <div class="col-md-8">
+
+
+
+                <div class="content" id="contact">
+                        <h2>Contact</h2>
+                        <p>For any queries, concerns, or clarifications, please contact the event organizers via:</p>
+                        <ul>
+                            <li>KISHORE KUMAR : <a href="tel:+91 8838582534">8838582534</a></li>
+                            <li>JANAGAN : <a href="tel:+91 9363290615">9363290615</a></li>
+                        </ul>
+                    </div>
                     <h2>Table of Contents</h2>
                     <ol>
                         <li><a href="#introduction">Introduction</a></li>
@@ -92,10 +105,13 @@ $tname = Database::get_tname($_SESSION['team_id']);
                         <li><a href="#prizes">Prizes</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ol>
+
+                    
                     <div class="content" id="introduction">
                         <h2>1. Introduction</h2>
                         <p>Welcome to our Capture The Flag (CTF) event! This competition is designed to test your cybersecurity skills, problem-solving abilities, and creativity. The objective is to find hidden flags within various challenges, each representing a unique security vulnerability or puzzle.</p>
                     </div>
+                    
 
                     <div class="content" id="getting-started">
                         <h2>2. Getting Started</h2>
@@ -145,14 +161,7 @@ $tname = Database::get_tname($_SESSION['team_id']);
                         <p>Winners: The top performers will be eligible for exciting prizes. Details about prizes and distribution will be communicated at the end of the event.</p>
                     </div>
 
-                    <div class="content" id="contact">
-                        <h2>8. Contact</h2>
-                        <p>For any queries, concerns, or clarifications, please contact the event organizers via:</p>
-                        <ul>
-                            <li>Email: <a href="mailto:groooot007@gmail.com">Byte Busters CTF Email</a></li>
-                            <li>Discord: <a href="https://discord.gg/EbBDNW4vyp">Byte Busters CTF Discord</a></li>
-                        </ul>
-                    </div>
+                    
 
                     <p>We hope you have a fantastic time participating in the CTF event! Good luck, and may the best hacker win!</p>
                 </div>

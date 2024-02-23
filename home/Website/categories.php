@@ -221,7 +221,7 @@ Database::make_conn();
                                   Linux
                                 </h4>
                                 <h4 class="panel-title">
-                                  6 Challenges  
+                                  3 Challenges  
                                 </h4>
                               </a>
                             </div>
