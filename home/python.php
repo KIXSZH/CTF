@@ -435,7 +435,7 @@ $result7 = Database::Checker($_SESSION['team_id'],$q7);
                                       <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"aria-describedby="basic-addon2" name="flag">
                                       <input type="hidden" name="qnum" value="0x1C">
                                       <div class="input-group-append">
-                                        <button class="btn btn-outline-success" type="button">GO!</button>
+                                        <button class="btn btn-outline-success" type="submit">GO!</button>
                                        
                                       </div> 
                                     </div>  </form>
@@ -456,7 +456,7 @@ $result7 = Database::Checker($_SESSION['team_id'],$q7);
                             <div class="panel-heading">
                               <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
                                 <h4 class="panel-title">
-                                  0x1C 
+                                  0x1G
                                 </h4>
                                 <h4 class="panel-title">
                                     50 points 
@@ -491,12 +491,10 @@ $result7 = Database::Checker($_SESSION['team_id'],$q7);
                                 <br>
                                 <form action="test.php" method="post">
                                   <div class="input-group mt-3">
-                                  
                                       <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"aria-describedby="basic-addon2" name="flag">
                                       <input type="hidden" name="qnum" value="0x1G">
                                       <div class="input-group-append">
-                                        <button class="btn btn-outline-success" type="button">GO!</button>
-                                       
+                                        <button class="btn btn-outline-success" type="submit">GO!</button>
                                       </div> 
                                     </div>  </form>
                                   <div class="col-xl-12 align-self-center">
