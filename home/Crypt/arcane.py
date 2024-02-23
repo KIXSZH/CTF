@@ -215,7 +215,7 @@ def decrypt_full_version(key_str):
           print("\nFull version written to 'keygenme.py'.\n\n"+ \
                  "Exiting trial version...")
     except FileExistsError:
-    	sys.stderr.write("Full version of keygenme NOT written to disk, "+ \
+    	print("Full version of keygenme NOT written to disk, "+ \
 	                  "ERROR: 'keygenme.py' file already exists.\n\n"+ \
 			  "ADVICE: If this existing file is not valid, "+ \
 			  "you may try deleting it and entering the "+ \
