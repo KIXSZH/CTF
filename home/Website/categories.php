@@ -123,10 +123,10 @@ Database::make_conn();
                             <div class="panel-heading">
                               <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
                                 <h4 class="panel-title">
-                                  Cryptography
+                                Forensic
                                 </h4>
                                 <h4 class="panel-title">
-                                    1 Challenges 
+                                    3 Challenges 
                                 </h4>
                               </a>
                             </div>

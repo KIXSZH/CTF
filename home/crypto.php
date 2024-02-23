@@ -4,12 +4,12 @@ include_once '../home/db/database.class.php';
 include_once '../home/db/session.class.php';
 session::start();
 Database::make_conn();
-$q1= '0x03';
-// $q2 = '0x0-';
-// $q3 = '0x0-';
+$q1= '0x67';
+$q2 = '0x68';
+$q3 = '0x69';
 $result1 = Database::Checker($_SESSION['team_id'],$q1);
-// $result2 = Database::Checker($_SESSION['team_id'],$q2);
-// $result3 = Database::Checker($_SESSION['team_id'],$q3);
+$result2 = Database::Checker($_SESSION['team_id'],$q2);
+$result3 = Database::Checker($_SESSION['team_id'],$q3);
 
 
 ?>
@@ -43,7 +43,7 @@ $result1 = Database::Checker($_SESSION['team_id'],$q1);
             <div class="navbar-nav">
               <a href="index.php" class="pl-md-0 p-3 text-light">Home</a>
               <a href="./Website/completed.php" class="p-3 text-decoration-none text-light active">Dashboard</a>
-              <a href="./Website/categories.php" class="p-3 text-decoration-none text-light active">Categories</a>
+              <a href="./Website/categories.php" class="p-3 text-decoration-none text-light active">Categories</a>             
             </div>
           </div>
         </nav>
@@ -51,9 +51,9 @@ $result1 = Database::Checker($_SESSION['team_id'],$q1);
       </div>
     </div><br>
     
-    <h1 class="display-3" style="text-align: center"><b>CRYPTOGRAPHY</b><span class="vim-caret">͏͏&nbsp;</span></h1>
+    <h1 class="display-3" style="text-align: center"><b>Forensic_Challenges</b><span class="vim-caret">͏͏&nbsp;</span></h1>
     <div class="lead mb-3 text-mono text-success"style="text-align: center">
-        Are you ready to solve the quests?
+        Are you ready to solve ...
        
     </div>
     <div class="jumbotron bg-transparent mb-0 radius-0">
@@ -72,19 +72,20 @@ $result1 = Database::Checker($_SESSION['team_id'],$q1);
                             <div class="panel-heading">
                               <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                                 <h4 class="panel-title">
-                                  0x03 
+                                  0x67
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    100 points 
                                   </h4>
                                 
                               </a>
                              
                             </div>
                             <div id="collapse1" class="panel-collapse collapse in">
-                              <div class="panel-body">RansomWare Attacks been happening....
-                                <br>
-                                <br>
+                              <div class="panel-body">Get through it
+                                <br><br>
+                                <button type="button" class="btn btn-warning">MEDIUM</button>
+                                <br><br>
                                 <?php if($result1){ ?>
                                 
                                 <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
@@ -93,25 +94,25 @@ $result1 = Database::Checker($_SESSION['team_id'],$q1);
                                 <?php echo '<a class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">NOT_COMPLETED_YET</a>'
                                 ?><?php }?>
                                 <br>
+                                
                                 <br>
                                 <div class="row justify-content-between">
 
                                   <div class="col-xl-12 align-self-center">
-                                      <a href="./challenges/0x03.html" class="btn btn-shadow text-mono btn-outline-success">Go there</a>
+                                      <a href="./challenges/0x67.html" class="btn btn-shadow text-mono btn-outline-success">Gothere</a>
                                       <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint1"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
                                   </div>
                                   <br>
                                 <br>
                                 <form action="test.php" method="post">
                                   <div class="input-group mt-3">
-                                  
-                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"aria-describedby="basic-addon2" name="flag">
-                                      <input type="hidden" name="qnum" value="0x03">
+                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag" aria-describedby="basic-addon2" name = "flag">
+                                      <input type="hidden" name="qnum" value="0x67">
                                       <div class="input-group-append">
                                         <button class="btn btn-outline-success" type="submit">GO!</button>
-                                       
-                                      </div> 
-                                    </div>  </form>
+                                      </div>
+                                    </div>  
+                                </form>
                                   <div class="col-xl-12 align-self-center">
                                     
     
@@ -122,26 +123,87 @@ $result1 = Database::Checker($_SESSION['team_id'],$q1);
                           </div>
                     </div>
                   </div>
-                  
 
-                  <!-- <div class="col-xl-4">
+
+                  <div class="col-xl-4">
+                      <div id="chal2" class="panel panel-default mb-10 text-center">
+                          <div class="container">
+                            <div class="panel-heading">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                <h4 class="panel-title">
+                                  0x68
+                                </h4>
+                                <h4 class="panel-title">
+                                    100 points 
+                                  </h4>
+                                
+                              </a>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse in">
+                              <div class="panel-body">ISO
+                                <br><br>
+                                <button type="button" class="btn btn-warning">MEDIUM</button>
+                                <br><br>
+                                <?php if($result2){ ?>
+                                
+                                <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
+                                ?><?php } 
+                                else{?>
+                                <?php echo '<a class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">NOT_COMPLETED_YET</a>'
+                                ?><?php }?>
+                                <br>
+                                
+                                <br>
+                                <div class="row justify-content-between">
+
+                                  <div class="col-xl-12 align-self-center">
+                                      <a href="./challenges/0x68.html" class="btn btn-shadow text-mono btn-outline-success">Gothere</a>
+                                      <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint1"><span class="far fa-lightbulb mr-2"></span>Get IT</button>
+                                  </div>
+                                  <br>
+                                <br>
+                                <form action="test.php" method="post">
+                                  <div class="input-group mt-3">
+                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag" aria-describedby="basic-addon2" name = "flag">
+                                      <input type="hidden" name="qnum" value="0x68">
+                                      <div class="input-group-append">
+                                        <button class="btn btn-outline-success" type="submit">GO!</button>
+                                      </div>
+                                    </div>  
+                                </form>
+                                  <div class="col-xl-12 align-self-center">
+                                    
+    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="col-xl-4">
                       <div id="chal3" class="panel panel-default mb-10 text-center">
                           <div class="container">
                             <div class="panel-heading">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
                                 <h4 class="panel-title">
-                                  0x--
+                                  0x69
                                 </h4>
                                 <h4 class="panel-title">
-                                    --- points 
+                                    100 points 
                                 </h4>
                               </a>
                             </div>
-                            <div id="collapse8" class="panel-collapse collapse in">
-                              <div class="panel-body">Quest 
-                                <br>
-                                <br>
-                                <?php if($result2){ ?>
+                            <div id="collapse2" class="panel-collapse collapse in">
+                              <div class="panel-body">HDF5 MAN 
+                                <br><br>
+                                <button type="button" class="btn btn-warning">MEDIUM</button>
+                                <br><br>
+                                <?php if($result3){ ?>
                                 
                                 <?php echo '<a title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
                                 ?><?php } 
@@ -154,7 +216,7 @@ $result1 = Database::Checker($_SESSION['team_id'],$q1);
                                 <br>
                                 <div class="row justify-content-between">
                                   <div class="col-xl-12 align-self-center">
-                                      <a href="#" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
+                                      <a href="./challenges/0x69.html" class="btn btn-shadow text-mono btn-outline-success">Go There</a>
                                       
                                       <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint2"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
                                      
@@ -164,11 +226,10 @@ $result1 = Database::Checker($_SESSION['team_id'],$q1);
                                 <form action="test.php" method="post">
                                   <div class="input-group mt-3">
                                       <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag" aria-describedby="basic-addon2" name = "flag">
-                                      <input type="hidden" name="qnum" value="0x0-">
+                                      <input type="hidden" name="qnum" value="0x69">
                                       <div class="input-group-append">
                                         <button class="btn btn-outline-success" type="submit">GO!</button>
                                       </div>
-
                                     </div>  
                                 </form>
                                   <div class="col-xl-12 align-self-center">
@@ -187,70 +248,8 @@ $result1 = Database::Checker($_SESSION['team_id'],$q1);
 
                     
                   </div>
-
-
-                  <div class="col-xl-4">
-                      <div id="chal2" class="panel panel-default mb-10 text-center">
-                          <div class="container">
-                            <div class="panel-heading">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
-                                <h4 class="panel-title">
-                                  0x-- 
-                                </h4>
-                                <h4 class="panel-title">
-                                    -- points 
-                                  </h4>
-                                
-                              </a>
-                             
-                            </div>
-                            <div id="collapse9" class="panel-collapse collapse in">
-                              <div class="panel-body">-------
-                                <br>
-                                <br>
-                                <?php if($result3){ ?>
-                                
-                                <?php echo '<a href="../home/login/login.html"title="Download Theme"class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">COMPLETED_SUCCESSFULLY</a>'
-                                ?><?php } 
-                                else{?>
-                                <?php echo '<a href="#!"class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">NOT_COMPLETED_YET</a>'
-                                ?><?php }?>
-                                <br>
-                                <br>
-                                <div class="row justify-content-between">
-
-                                  <div class="col-xl-12 align-self-center">
-                                      <a href="#!" class="btn btn-shadow text-mono btn-outline-success">Download</a>
-                                      <button type="button" class="btn btn-shadow btn-outline-success" data-toggle="modal" data-target="#hint3"><span class="far fa-lightbulb mr-2"></span>Get HINT</button>
-                                  </div>
-                                  <br>
-                                <br>
-                                <form action="test.php" method="post">
-                                  <div class="input-group mt-3">
-                                  
-                                      <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"aria-describedby="basic-addon2" name="flag">
-                                      <input type="hidden" name="qnum" value="0x0-">
-                                      <div class="input-group-append">
-                                        <button class="btn btn-outline-success" type="button">GO!</button>
-                                       
-                                      </div> 
-                                    </div>  </form>
-                                  <div class="col-xl-12 align-self-center">
-                                    
-    
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    
-                  </div>
-                  
-                </div> -->
-                <a href="javascript:history.back()" class="mt-5 btn btn-shadow btn-success btn-block">GO BACK</a>
-               
-              </div>
+                 <a href=".\Website\categories.php" class="mt-5 btn btn-shadow btn-success btn-block">GO BACK</a>
+             </div>
             </div>
           </div>
       </div>
@@ -318,6 +317,7 @@ $result1 = Database::Checker($_SESSION['team_id'],$q1);
   }
   setInterval(sendAndReceiveData, 1000);
   </script>
+    
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
