@@ -110,7 +110,7 @@ $result3 = Database::Checker($_SESSION['team_id'],$q3);
                                       <input type="text" style="margin-left: 40px;" class="form-control" placeholder="Enter Flag" aria-label="Enter Flag"aria-describedby="basic-addon2" name="flag">
                                       <input type="hidden" name="qnum" value="0x20">
                                       <div class="input-group-append">
-                                        <button class="btn btn-outline-success" type="button">GO!</button>
+                                        <button class="btn btn-outline-success" type="submit">GO!</button>
                                        
                                       </div> 
                                     </div>  </form>
