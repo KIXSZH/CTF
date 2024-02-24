@@ -10,7 +10,7 @@ $q3 = '0x19';
 $q4 = '0x1A';
 $q5 = '0x1B';
 $q6 = '0x1C';
-$q7='0x1G';
+$q7=  '0x1G';
 $result1 = Database::Checker($_SESSION['team_id'],$q1);
 $result2 = Database::Checker($_SESSION['team_id'],$q2);
 $result3 = Database::Checker($_SESSION['team_id'],$q3);
@@ -268,7 +268,7 @@ $result7 = Database::Checker($_SESSION['team_id'],$q7);
                                   0x1A
                                 </h4>
                                 <h4 class="panel-title">
-                                    50 points 
+                                    50 Points
                                 </h4>
                               </a>
                             </div>
@@ -496,7 +496,8 @@ $result7 = Database::Checker($_SESSION['team_id'],$q7);
                                       <div class="input-group-append">
                                         <button class="btn btn-outline-success" type="submit">GO!</button>
                                       </div> 
-                                    </div>  </form>
+                                    </div>  
+                                  </form>
                                   <div class="col-xl-12 align-self-center">
                                     
     
