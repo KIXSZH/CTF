@@ -90,6 +90,9 @@
                 </div>
 
                 <div class="text-mono" style="display: flex;">
+                    <button id="flagfile" class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left"> PYTHON FILE </button>
+                </div>
+                <div class="text-mono" style="display: flex;">
                     <button id="flag" class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">GET THIS Packets File </button>
                 </div>
             </div>
@@ -113,6 +116,14 @@
 <script src="../assets/js/app.js"></script>
 
 <script>
+    document.getElementById('flagfile').addEventListener('click', function() {
+        var link = document.createElement('a');
+        link.href = '../Crypt/server.py'; // Provide the actual path
+        link.download = 'secret.py'; // Specify the desired file name
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
     document.getElementById('flag').addEventListener('click', function() {
         var link = document.createElement('a');
         link.href = '../Crypt/packets.pcap'; // Provide the actual path

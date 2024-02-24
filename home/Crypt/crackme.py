@@ -1,7 +1,7 @@
 # Hiding this really important number in an obscure piece of code is brilliant!
 # AND it's encrypted!
 # We want our biggest client to know his information is safe with us.
-bezos_cc_secret = "%9#6p50qF$Et#DL`M-^M0c0AbcM-MFE0g4dd`_cgN"
+bezos_cc_secret = "%9#6p50qF$Et#DL?20E92?0?20E92?N"
 
 # Reference alphabet
 alphabet = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ"+ \
